@@ -64,7 +64,7 @@ module.exports = async () => {
             alias: 'p',
             description: 'http server port',
             type: 'number',
-            default: 3000
+            default: 7901
         })
         .help().alias('help', 'h')
         .argv;

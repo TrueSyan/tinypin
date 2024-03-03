@@ -1,6 +1,6 @@
 function restoreOptions(){
     chrome.storage.sync.get({
-        server: 'http://localhost:3000'
+        server: 'http://localhost:7901'
     }, function(items){
         document.getElementById('server').value = items.server;
     });

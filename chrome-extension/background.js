@@ -50,7 +50,7 @@ function getClickHandler() {
 
 
         chrome.storage.sync.get({
-            server: 'http://localhost:3000'
+            server: 'http://localhost:7901'
         }, function(items){
             let server = items.server;
 
