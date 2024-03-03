@@ -9,11 +9,6 @@ function getClickHandler() {
           return;
         }
 
-        var w = 700;
-        var h = 800;
-        var left = (screen.width/2)-(w/2);
-        var top = (screen.height/2)-(h/2); 
-
         let s = "";
         if ( info.linkUrl ){
           s = info.linkUrl;
@@ -61,8 +56,7 @@ function getClickHandler() {
             var url = server + 'addpin.html#' + q;
         
             // Create a new window to the info page.
-            // chrome.windows.create({ url: url, width: 520, height: 660 });
-            chrome.windows.create({ url: url, width: w, height: h, left: left, top: top, type: 'popup' });
+            chrome.windows.create({ url: url, type: 'popup' });
         });
 
         
