@@ -3,7 +3,7 @@
 VERSION=$(git rev-parse --verify --short HEAD) 
 
 docker build \
-    -t slynn1324/tinypin \
+    -t truesyan/tinypin \
     --build-arg VERSION=$VERSION \
     .
 

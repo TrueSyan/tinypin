@@ -57,9 +57,7 @@ function getClickHandler() {
         
             // Create a new window to the info page.
             chrome.windows.create({ url: url, type: 'popup' });
-        });
-
-        
+        });   
     };
   };
   
