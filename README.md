@@ -28,7 +28,7 @@ node main.js
 Currently Docker is not being actively maintained as I'm unfarmiliar with the environment.
 
 ```
-docker run -d --name tinypin -p 3000:3000 -v "$(pwd)/data:/data" --restart=unless-stopped truesyan/tinypin
+docker run -d --name tinypin -p 7901:7901 -v "$(pwd)/data:/data" --restart=unless-stopped truesyan/tinypin
 ```
 
 ### Building
