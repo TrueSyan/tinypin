@@ -42,6 +42,8 @@ or
 
 # chrome extension
 
+Chrome Webstore option has been removed as it's currently managed by slynn1324.
+
 - visit `chrome://extensions`
 - enable developer mode
 - click `Load Unpacked`
@@ -91,4 +93,5 @@ There is trivial security on the web pages to allow for multiple user support.  
 ## buy me a beer
 
 If you would like to support the original author, please send them money at https://paypal.me/slynn1324
+
 Syan do not current accept donations.
