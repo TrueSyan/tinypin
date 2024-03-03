@@ -1,10 +1,10 @@
-# tinypin
+# TinyPin
 
 A self-hosted, minimalistic image collection board.  
 
-# screenshots
+# Screenshots
 
-## desktop
+## Desktop
 ![desktop screenshot](/screenshots/desktop.jpg?raw=true "desktop")
 ![desktop zoom screenshot](/screenshots/desktop-zoom.jpg?raw=true "desktop zoom")
 
@@ -13,7 +13,7 @@ A self-hosted, minimalistic image collection board.
 <image src="/screenshots/ios-zoom.jpg?raw=true" wdith="200" height="433" alt="ios zoom screenshot" />
 
 
-# running
+# Running
 
 ```
 git clone https://github.com/truesyan/tinypin.git
@@ -22,12 +22,12 @@ npm install
 node main.js
 ```
 
-## docker
+## Docker
 ```
 docker run -d --name tinypin -p 3000:3000 -v "$(pwd)/data:/data" --restart=unless-stopped truesyan/tinypin
 ```
 
-### building
+### Building
 Feel free to build your own docker images, maybe with your own customizations. 
 
 ```
@@ -40,7 +40,7 @@ or
 ./docker-build.sh
 ```
 
-# chrome extension
+# Chrome Extension
 
 Chrome Webstore option has been removed as it's currently managed by slynn1324.
 
@@ -52,13 +52,21 @@ Chrome Webstore option has been removed as it's currently managed by slynn1324.
 - click `extension options`
 - update the url for your tinypin installation
 
-# security
+# Security
 
-There is trivial security on the web pages to allow for multiple user support.  I make no claim to the robustness of the security for the content nor the hashed credential storage in the database.  Additional layers of security should be considered before exposing the application to the internet.  
+There is trivial security on the web pages to allow for multiple user support. I make no claim to the robustness of the security for the content nor the hashed credential storage in the database. Additional layers of security should be considered before exposing the application to the internet.  
 
-# credits
+# Credits
 
-## client
+## Author
+
+Original author is [slynn1324](https://github.com/slynn1324/).
+
+## Contributor
+
+Maintainer of this fork is [Syan](https://github.com/TrueSyan).
+
+## Client
 
 - css framework > [bulma.io](https://www.bulma.io)
 - js framework > [reef](https://reefjs.com)
@@ -78,7 +86,7 @@ There is trivial security on the web pages to allow for multiple user support.  
 - done icon > [done by Viktor Ostrovsky from the Noun Project](https://thenounproject.com/term/done/587164/)
 - settings icon > [setting by LUTFI GANI AL ACHMAD from the Noun Project](https://thenounproject.com/term/settings/3291880/)
 
-## server
+## Server
 
 - language & runtime > [node.js](https://nodejs.org/)
 - database > [sqlite](https://www.sqlite.org/index.html)
@@ -90,7 +98,7 @@ There is trivial security on the web pages to allow for multiple user support.  
 - library > [sharp](https://www.npmjs.com/package/sharp)
 - library > [yargs](https://www.npmjs.com/package/yargs)
 
-## buy me a beer
+## Donations
 
 If you would like to support the original author, please send them money at https://paypal.me/slynn1324
 
