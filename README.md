@@ -1,6 +1,6 @@
 # TinyPin
 
-A self-hosted, minimalistic image collection board.  
+A self-hosted, minimalistic image collection board.
 
 # Screenshots
 
@@ -23,19 +23,25 @@ node main.js
 ```
 
 ## Docker
+
+Currently Docker is not being actively maintained as I'm unfarmiliar with the environment.
+
 ```
 docker run -d --name tinypin -p 3000:3000 -v "$(pwd)/data:/data" --restart=unless-stopped truesyan/tinypin
 ```
 
 ### Building
-Feel free to build your own docker images, maybe with your own customizations. 
+
+Feel free to build your own docker images, maybe with your own customizations.
 
 ```
 git clone https://github.com/truesyan/tinypin.git
 cd tinypin
 docker build -t tinypin .
 ```
+
 or
+
 ```
 ./docker-build.sh
 ```
@@ -44,13 +50,13 @@ or
 
 Chrome Webstore option has been removed as it's currently managed by slynn1324.
 
-- visit `chrome://extensions`
-- enable developer mode
-- click `Load Unpacked`
-- chose the `chrome-extension` folder
-- click `details` for the `add to tinypin` extension
-- click `extension options`
-- update the url for your tinypin installation
+- Visit `chrome://extensions`
+- Enable developer mode
+- Click `Load Unpacked`
+- Chose the `chrome-extension` folder
+- Click `details` for the `add to tinypin` extension
+- Click `extension options`
+- Update the url for your tinypin installation
 
 # Security
 
@@ -60,7 +66,7 @@ There is trivial security on the web pages to allow for multiple user support. I
 
 ## Author
 
-Original author is [slynn1324](https://github.com/slynn1324/).
+Original Author is [slynn1324](https://github.com/slynn1324).
 
 ## Contributor
 
