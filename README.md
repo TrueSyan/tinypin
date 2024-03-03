@@ -5,13 +5,14 @@ A self-hosted, minimalistic image collection board.
 # Screenshots
 
 ## Desktop
+
 ![desktop screenshot](/screenshots/desktop.jpg?raw=true "desktop")
 ![desktop zoom screenshot](/screenshots/desktop-zoom.jpg?raw=true "desktop zoom")
 
 ## iPhone
+
 <image src="/screenshots/ios.jpg?raw=true" width="200" height="433" alt="ios screenshot" />
 <image src="/screenshots/ios-zoom.jpg?raw=true" wdith="200" height="433" alt="ios zoom screenshot" />
-
 
 # Running
 
