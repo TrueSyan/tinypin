@@ -49,7 +49,7 @@ app.addComponent('aboutModal', (store) => { return new Reef("#aboutModal", {
                         </div>
                     </div>
                     <div>
-                        <a href="https://www.github.com">github.com/slynn1324/tinypin</a>
+                        <a href="https://www.github.com">github.com/truesyan/tinypin</a>
                         <br />
                         build: ${data.user ? data.user.version : 'unknown'}
                         <br />
