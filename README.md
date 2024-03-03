@@ -16,7 +16,7 @@ A self-hosted, minimalistic image collection board.
 # running
 
 ```
-git clone https://github.com/slynn1324/tinypin.git
+git clone https://github.com/truesyan/tinypin.git
 cd tinypin
 npm install
 node main.js
@@ -24,14 +24,14 @@ node main.js
 
 ## docker
 ```
-docker run -d --name tinypin -p 3000:3000 -v "$(pwd)/data:/data" --restart=unless-stopped slynn1324/tinypin
+docker run -d --name tinypin -p 3000:3000 -v "$(pwd)/data:/data" --restart=unless-stopped truesyan/tinypin
 ```
 
 ### building
 Feel free to build your own docker images, maybe with your own customizations. 
 
 ```
-git clone https://github.com/slynn1324/tinypin.git
+git clone https://github.com/truesyan/tinypin.git
 cd tinypin
 docker build -t tinypin .
 ```
@@ -42,10 +42,6 @@ or
 
 # chrome extension
 
-https://chrome.google.com/webstore/detail/add-to-tinypin/ehdpchlgmoafibdpmimgigogcgmebfpa
-
-or 
-
 - visit `chrome://extensions`
 - enable developer mode
 - click `Load Unpacked`
@@ -53,23 +49,6 @@ or
 - click `details` for the `add to tinypin` extension
 - click `extension options`
 - update the url for your tinypin installation
-
-
-# ios shortcuts
-
-adding these ios shortcuts enables native app-link share-sheet integration
-(hopefully these work - new to this whole shortcut thing)
-
-add to tinypin
-https://www.icloud.com/shortcuts/0f096fafcad14b028c1ce4ffd5960216
-
-upload to tinypin
-https://www.icloud.com/shortcuts/87d8c6993c644dc181f220f6a736340d
-
-Open In (note: this must currently be named exactly 'Open In' for the in app share button to work.)
-https://www.icloud.com/shortcuts/a129342e79ff40ef9e63c94c73ffaa50
-
-
 
 # security
 
@@ -111,4 +90,5 @@ There is trivial security on the web pages to allow for multiple user support.  
 
 ## buy me a beer
 
-If you find this useful and feel so inclinced, https://paypal.me/slynn1324.  Otherwise, simply enjoy. 
+If you would like to support the original author, please send them money at https://paypal.me/slynn1324
+Syan do not current accept donations.

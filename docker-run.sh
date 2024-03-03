@@ -6,4 +6,4 @@ docker run -d \
     -p 3001:3000 \
     -v "/mnt/tank/tinypin-data:/data" \
     --restart=unless-stopped \
-    slynn1324/tinypin
+    truesyan/tinypin

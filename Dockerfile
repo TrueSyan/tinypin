@@ -1,6 +1,6 @@
 FROM node:alpine3.12
 
-LABEL maintainer="slynn1324@gmail.com"
+LABEL maintainer="truesyan@gmail.com"
 
 ARG VERSION
 
